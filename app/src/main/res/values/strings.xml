@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CoffeeApp2</string>
+    <string name="title_home">Home</string>
+    <string name="title_favorite">Favorite</string>
+</resources>
