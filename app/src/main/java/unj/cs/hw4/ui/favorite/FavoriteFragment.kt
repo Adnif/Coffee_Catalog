@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.coffeeapp2.databinding.FragmentFavoriteBinding
+import unj.cs.hw4.databinding.FragmentFavoriteBinding
 
 class FavoriteFragment : Fragment() {
 

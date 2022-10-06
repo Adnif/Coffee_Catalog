@@ -11,14 +11,23 @@
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" >
         <action
-            android:id="@+id/action_navigation_home_to_detailFragment2"
-            app:destination="@id/detailFragment2" />
+            android:id="@+id/action_navigation_home_to_detailFragment"
+            app:destination="@id/navigation_detail" />
     </fragment>
     <fragment
-        android:id="@+id/detailFragment2"
+        android:id="@+id/navigation_detail"
         android:name="unj.cs.hw4.ui.detail.DetailFragment"
-        android:label="fragment_detail"
+        android:label="@string/title_detail"
         tools:layout="@layout/fragment_detail" />
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="unj.cs.hw4.ui.favorite.FavoriteFragment"
+        android:label="@string/title_favorite"
+        tools:layout="@layout/fragment_favorite" >
+        <action
+            android:id="@+id/action_favoriteFragment_to_detailFragment"
+            app:destination="@id/navigation_detail" />
+    </fragment>
 
 
 </navigation>
