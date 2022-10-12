@@ -32,7 +32,7 @@ class HomeFragment : Fragment() {
         val recyclerView = binding.homeListView
         recyclerView.setHasFixedSize(true)
         recyclerView.layoutManager = LinearLayoutManager(root.context)
-        recyclerView.adapter = ItemAdapter(this.context, homeViewModel.myDataset)
+        recyclerView.adapter = ItemAdapter(root.context, homeViewModel.myDataset)
 
         return root
     }
