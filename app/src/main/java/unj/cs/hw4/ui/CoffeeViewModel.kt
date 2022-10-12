@@ -1,11 +1,11 @@
-package unj.cs.hw4.ui.home
+package unj.cs.hw4.ui
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import unj.cs.hw4.data.Datasource
 
-class HomeViewModel : ViewModel() {
+class CoffeeViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
         value = "This is home Fragment"
