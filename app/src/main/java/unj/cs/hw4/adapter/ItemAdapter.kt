@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import unj.cs.hw4.R
 import unj.cs.hw4.model.Coffee
 
-class ItemAdapter(private val context: Context?, private val dataset: List<Coffee>) : RecyclerView.Adapter<ItemAdapter.ItemViewHolder>() {
+class ItemAdapter(private val context: Context, private val dataset: List<Coffee>) : RecyclerView.Adapter<ItemAdapter.ItemViewHolder>() {
 
     class ItemViewHolder(private val view: View) : RecyclerView.ViewHolder(view) {
         val textView: TextView = view.findViewById(R.id.item_title)
