@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import unj.cs.hw4.R
-import unj.cs.hw4.adapter.ItemAdapter
+import unj.cs.hw4.adapter.FavoriteAdapter
 import unj.cs.hw4.databinding.FragmentFavoriteBinding
 
 class FavoriteFragment : Fragment(R.layout.fragment_favorite) {
@@ -33,7 +33,7 @@ class FavoriteFragment : Fragment(R.layout.fragment_favorite) {
         val recyclerView = binding.favoriteListView
         recyclerView.setHasFixedSize(true)
         recyclerView.layoutManager = LinearLayoutManager(root.context)
-        recyclerView.adapter = ItemAdapter(root.context, favoriteViewModel.myDataset)
+        recyclerView.adapter = FavoriteAdapter(root.context, favoriteViewModel.myDataset)
 
         return root
     }

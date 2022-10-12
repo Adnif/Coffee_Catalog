@@ -11,6 +11,7 @@ import androidx.activity.addCallback
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavArgs
 import androidx.navigation.fragment.navArgs
+import androidx.navigation.ui.AppBarConfiguration
 import androidx.viewbinding.ViewBinding
 import unj.cs.hw4.R
 import unj.cs.hw4.databinding.FragmentDetailBinding
