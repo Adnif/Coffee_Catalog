@@ -8,7 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import unj.cs.hw4.R
 
-class DetailFragment : Fragment() {
+class DetailFragment : Fragment(R.layout.fragment_detail) {
 
     companion object {
         fun newInstance() = DetailFragment()
@@ -21,12 +21,6 @@ class DetailFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         return inflater.inflate(R.layout.fragment_detail, container, false)
-    }
-
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(DetailViewModel::class.java)
-        // TODO: Use the ViewModel
     }
 
 }

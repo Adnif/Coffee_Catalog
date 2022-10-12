@@ -6,9 +6,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.LinearLayoutManager
+import unj.cs.hw4.R
+import unj.cs.hw4.adapter.ItemAdapter
 import unj.cs.hw4.databinding.FragmentFavoriteBinding
 
-class FavoriteFragment : Fragment() {
+class FavoriteFragment : Fragment(R.layout.fragment_favorite) {
 
     private var _binding: FragmentFavoriteBinding? = null
 
@@ -27,10 +30,11 @@ class FavoriteFragment : Fragment() {
         _binding = FragmentFavoriteBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-//        val textView: TextView = binding.textDashboard
-//        favoriteViewModel.text.observe(viewLifecycleOwner) {
-//            textView.text = it
-//        }
+        val recyclerView = binding.favoriteListView
+        recyclerView.setHasFixedSize(true)
+        recyclerView.layoutManager = LinearLayoutManager(root.context)
+        recyclerView.adapter = ItemAdapter(root.context, favoriteViewModel.myDataset)
+
         return root
     }
 
