@@ -11,3 +11,4 @@ data class Coffee(
     val longDescription: Int,
     var favorite: Boolean = false
 ) : Parcelable
+

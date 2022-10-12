@@ -3,4 +3,41 @@
     <string name="title_home">Home</string>
     <string name="title_favorite">Favorite</string>
     <string name="title_detail">Detail</string>
+
+    //Coffees String Title
+    <string name="affogato">Affogato</string>
+    <string name="americano">Americano</string>
+    <string name="caffe_latte">Caffe Latte</string>
+    <string name="caffe_mocha">Caffe Mocha</string>
+    <string name="caffe_aulait">Caffe Au Lait</string>
+    <string name="cappucino">Cappucino</string>
+    <string name="espresso">Espresso</string>
+    <string name="frappe">Frappe</string>
+    <string name="irish_coffee">Irish Coffee</string>
+    <string name="flat_white">Flat White</string>
+
+    //Coffees String Long Desc
+    <string name="affogatol">An affogato /ˌɑːfəˈɡɑːtəʊ/, /ˌæfəˈɡɑːtəʊ/ or more traditionally known as "affogato al caffe" (Italian for "drowned in coffee") is an Italian coffee-based dessert. It usually takes the form of a scoop of plain milk-flavored (fior di latte) or vanilla gelato or ice cream topped or "drowned" with a shot of hot espresso. Some variations also include a shot of amaretto, Bicerin, Kahlua, or other liqueur.</string>
+    <string name="americanol">Caffè Americano (also known as Americano or American; Italian pronunciation: [kafˈfɛ ameriˈkaːno]; Spanish: café americano, literally American coffee) is a type of coffee drink prepared by diluting an espresso with hot water, giving it a similar strength to, but different flavor from, traditionally brewed coffee. Its strength varies with the number of shots of espresso and amount of water added. The name is also spelled with varying capitalization and use of diacritics: e.g., café americano.</string>
+    <string name="caffe_lattel">Caffè latte (Italian: [kafˌfɛ lˈlatte]), often shortened to just latte (/ˈlɑːteɪ, ˈlæteɪ/) in English, is a coffee beverage of Italian origin made with espresso and steamed milk. Variants include the chocolate-flavored mocha or replacing the coffee with another beverage base such as masala chai (spiced Indian tea), mate, matcha, turmeric, or rooibos; alternatives to milk, such as soy milk or almond milk, are also used.</string>
+    <string name="caffe_mochal">A caffè mocha (/ˈmɒkə/ or /ˈmoʊkə/), also called mocaccino (Italian: [mokatˈtʃiːno]), is a chocolate-flavoured warm beverage that is a variant of a caffè latte (Italian: [kafˈfɛ lˈlatte]),commonly served in a glass rather than a mug. Other commonly used spellings are mochaccino[2] and also mochachino. The name is derived from the city of Mocha, Yemen, which was one of the centres of early coffee trade. Like latte, the name is commonly shortened to just mocha.</string>
+    <string name="caffe_aulaitl">Café au lait (/ˌkæfeɪ oʊ ˈleɪ, kæˌfeɪ, kə-/; French: [kafe o lɛ]; French for "coffee with milk") is coffee with hot milk added. It differs from white coffee, which is coffee with cold milk or other whiteners added.</string>
+    <string name="cappucinol">A cappuccino (/ˌkæpʊˈtʃiːnoʊ/ (listen); is an espresso-based coffee drink that originated in Italy and is prepared with steamed milk foam (microfoam).Variations of the drink involve the use of cream instead of milk, using non-dairy milk substitutes and flavoring with cinnamon or chocolate powder.It is typically smaller in volume than a caffè latte, with a thicker layer of microfoam.</string>
+    <string name="espressol">Espresso (/ɛˈsprɛsoʊ/ (listen), Italian: [eˈsprɛsso]) is a coffee-brewing method of Italian origin, in which a small amount of nearly boiling water (about 90 °C or 190 °F) is forced under 9–10 bars (900–1,000 kPa; 130–150 psi) of pressure through finely-ground coffee beans. Espresso can be made with a wide variety of coffee beans and roast degrees. </string>
+    <string name="frappel">A frappé coffee, Greek frappé, Nescafé frappé, or just frappé (Greek: φραπέ, frapé, [fraˈpe]) is a Greek iced coffee drink made from instant coffee (generally, spray-dried Nescafé), water, sugar, and milk.The word is often written frappe (without an accent). The frappé was invented through experimentation by Dimitris Vakondios, a Nescafe representative, in 1957 in Thessaloniki.Frappés are among the most popular forms of coffee in Greece and Cyprus and have become a hallmark of postwar outdoor Greek coffee culture.</string>
+    <string name="irish_coffel">Irish coffee (Irish: caife Gaelach) is a caffeinated alcoholic drink consisting of Irish whiskey, hot coffee, and sugar, stirred, and topped with cream (sometimes cream liqueur) The coffee is drunk through the cream.</string>
+    <string name="flatwhitel">A flat white is a coffee drink consisting of espresso with microfoam (steamed milk with small, fine bubbles and a glossy or velvety consistency). It is comparable to a latte, but smaller in volume and with less microfoam, therefore having a higher proportion of coffee to milk, and milk that is more velvety in consistency – allowing the espresso to dominate the flavour, while being supported by the milk.</string>
+
+    //Coffees String Short Desc
+    <string name="affogatos">Coffee poured ice cream</string>
+    <string name="americanos">An american way coffee</string>
+    <string name="caffe_lattes">A Coffee with milk</string>
+    <string name="caffe_mochas">A coffee with chocolate</string>
+    <string name="caffe_aulaits">French morning coffee</string>
+    <string name="cappucinos">A Coffee from Capuchin friars</string>
+    <string name="espressos">The original Italians brewing method</string>
+    <string name="frappes">Greek made instant coffee</string>
+    <string name="irish_coffees">A coffee with alcohol, an irish way</string>
+    <string name="flat_whites">Espresso with microfoam</string>
+
 </resources>
