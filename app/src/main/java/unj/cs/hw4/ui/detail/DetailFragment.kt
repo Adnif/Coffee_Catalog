@@ -6,6 +6,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.activity.OnBackPressedCallback
+import androidx.activity.addCallback
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavArgs
 import androidx.navigation.fragment.navArgs
@@ -21,17 +23,18 @@ class DetailFragment : Fragment(R.layout.fragment_detail) {
 
     private lateinit var viewModel: DetailViewModel
 
+    private val args by navArgs<DetailFragmentArgs>()
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentDetailBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        binding.detailTitle.text = root.context.resources.getString(arguments!!.getInt("title"))
-        binding.detailImageView.setImageResource(arguments!!.getInt("image"))
-        binding.detailDesc.text = root.context.resources.getString(arguments!!.getInt("description"))
-
+        binding.detailTitle.text = root.context.resources.getString(args.currentCoffee.title)
+        binding.detailImageView.setImageResource(args.currentCoffee.drawable)
+        binding.detailDesc.text = root.context.resources.getString(args.currentCoffee.longDescription)
 
         return root
     }

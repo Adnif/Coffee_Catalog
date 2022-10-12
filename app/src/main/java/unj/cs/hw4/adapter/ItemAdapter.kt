@@ -38,7 +38,7 @@ class ItemAdapter(private val context: Context, private val dataset: List<Coffee
         holder.imageView.setImageResource(item.drawable)
         holder.descView.text = context.resources.getString(item.shortDescription)
         holder.itemView.setOnClickListener { view ->
-            val bundle: Bundle = bundleOf("title" to item.title, "image" to item.drawable, "description" to item.longDescription)
+            val bundle: Bundle = bundleOf("currentCoffee" to item)
             val NavController = Navigation.findNavController(view)
             NavController.navigate(R.id.action_homeFragment_to_detailFragment, bundle)
         }

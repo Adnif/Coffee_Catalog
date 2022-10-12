@@ -13,7 +13,9 @@
         <action
             android:id="@+id/action_homeFragment_to_detailFragment"
             app:destination="@id/navigation_detail"
-            app:popUpTo="@id/navigation_home" />
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popUpToInclusive="false" />
     </fragment>
     <fragment
         android:id="@+id/navigation_detail"
@@ -21,14 +23,14 @@
         android:label="@string/title_detail"
         tools:layout="@layout/fragment_detail" >
         <argument
-            android:name="title"
-            app:argType="integer" />
-        <argument
-            android:name="image"
-            app:argType="integer" />
-        <argument
-            android:name="description"
-            app:argType="integer" />
+            android:name="currentCoffee"
+            app:argType="unj.cs.hw4.model.Coffee" />
+        <action
+            android:id="@+id/action_navigation_detail_pop"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/navigation_detail"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/navigation_favorite"
@@ -38,7 +40,9 @@
         <action
             android:id="@+id/action_favoriteFragment_to_detailFragment"
             app:destination="@id/navigation_detail"
-            app:popUpTo="@id/navigation_favorite" />
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popUpToInclusive="false" />
     </fragment>
 
 
