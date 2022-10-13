@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import unj.cs.hw4.R
 import unj.cs.hw4.adapter.ItemAdapter
 import unj.cs.hw4.databinding.FragmentHomeBinding
+import unj.cs.hw4.ui.CoffeeViewModel
 
 class HomeFragment : Fragment(R.layout.fragment_home) {
 
@@ -25,7 +26,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         savedInstanceState: Bundle?
     ): View {
         val homeViewModel =
-            ViewModelProvider(this).get(HomeViewModel::class.java)
+            ViewModelProvider(this).get(CoffeeViewModel::class.java)
 
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
